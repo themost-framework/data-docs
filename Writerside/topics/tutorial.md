@@ -43,17 +43,43 @@ TraceUtils.info(
 
 3. Final step in part 1.
 
-## Part 2
+## Create your first data model
 
 This is the second part of the tutorial:
 
-1. Step 1
-2. Step 2
-3. Step n
+1.Define a new data model
+
+
+2. Configure data adapter
+
+[@themost/data](https://github/com/themost-framework/data) application as a database-agnostic environment allows you to define and use different data storages like:
+
+- SQLite [@themost/sqlite](https://github.com/themost-framework/sqlite)
+- MySQL [@themost/mysql](https://github.com/themost-framework/mysql)
+- PostgreSQL [@themost/postgres](https://github.com/themost-framework/pg)
+- MSSQL [@themost/mssql](https://github.com/themost-framework/mssql)
+- Oracle  [@themost/oracle](https://github.com/themost-framework/oracle)
+
+Modify application and define a new data adapter:
+
+```javascript
+
+```
+
+
+```javascript
+
+
+3. Create a new data context
+
+```javascript
+
+```
 
 ## What you've learned {id="what-learned"}
 
-Summarize what the reader achieved by completing this tutorial.
+This tutorial has shown you how to create a new data application using the `@themost/data` module.
+It also showed you how to create your first data model and configure a data adapter.
 
 <seealso>
 <!--Give some related links to how-to articles-->
